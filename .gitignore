@@ -1,0 +1,32 @@
+
+# Python Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Python Cache Files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Hugging Face Cache (for transformer models)
+.cache/
+transformers_cache/
+~/.cache/huggingface/
+
+# NLTK Data
+nltk_data/
+
+# Generated Output Files
+*.png
+*.pdf
+*.html
+mental_health_classifications.csv
+category_summary.csv
+nlp_analysis_results.csv
+topic_summary.csv
+simple_content_summary.csv
